@@ -1,5 +1,11 @@
 # Nexus - Modern React Ecommerce Website
 
+# Live Demo
+
+[Live Website](https://nexus-ecommerce-brown.vercel.app/)
+
+---
+
 A modern, responsive, and fully functional ecommerce frontend built using React and Vite. This project includes product pages, cart management, checkout flow, and Razorpay frontend payment integration.
 
 This project is designed for learning, portfolio showcasing, freelancing, and ecommerce frontend development.
@@ -60,16 +66,16 @@ src/
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone https://github.com/YOUR_USERNAME/nexus-ecommerce.git
 ```
 
 Go to project directory:
 
 ```bash
-cd project-name
+cd nexus-ecommerce
 ```
 
-Install all dependencies:
+Install dependencies:
 
 ```bash
 npm install
@@ -93,17 +99,14 @@ Example:
 VITE_RAZORPAY_KEY=YOUR_RAZORPAY_KEY
 ```
 
-IMPORTANT:
-
-- Never share your secret keys publicly
-- Use your own Razorpay account credentials
+Important:
+- Never share secret keys publicly
+- Use your own Razorpay credentials
 - Do not upload `.env` files to GitHub
 
 ---
 
 # Razorpay Integration Setup
-
-This project uses Razorpay frontend payment integration.
 
 Add Razorpay checkout script inside `index.html`:
 
@@ -153,35 +156,30 @@ Recommended deployment platforms:
 
 # Customization
 
-This project can easily be customized for clients.
-
-You can change:
-
-- Logo
+You can easily customize:
 - Brand name
-- Colors
+- Logo
 - Product data
+- Colors
 - Homepage sections
+- Categories
 - UI design
-- Payment setup
-- Product categories
+- Payment integration
 
 ---
 
-# Recommended Improvements
+# Future Improvements
 
-Future upgrades that can make this project production-ready:
-
+Possible upgrades for production-ready ecommerce:
 - Backend integration
 - MongoDB database
 - Authentication system
 - Admin dashboard
-- Order management
 - Wishlist feature
-- Search & filtering
+- Search and filtering
 - Payment verification
 - User profiles
-- API integration
+- Order management
 
 ---
 
@@ -190,7 +188,6 @@ Future upgrades that can make this project production-ready:
 This project currently includes frontend payment integration only.
 
 Backend features like:
-
 - Payment verification
 - Database storage
 - Authentication
@@ -198,57 +195,6 @@ Backend features like:
 - Order tracking
 
 are not included yet.
-
----
-
-# Files To Remove Before Selling
-
-Before creating ZIP or uploading publicly, remove:
-
-```txt
-node_modules
-.env
-.git
-dist
-```
-
----
-
-# Final Project Setup
-
-Final project should contain:
-
-```txt
-src/
-public/
-README.md
-.env.example
-package.json
-vite.config.js
-```
-
----
-
-# Create ZIP File
-
-After cleaning project:
-
-1. Right click project folder
-2. Compress to ZIP
-3. Send clean ZIP to client
-
----
-
-# Fiverr Package Suggestion
-
-## Basic Package
-- Simple ecommerce frontend
-
-## Standard Package
-- Ecommerce frontend with cart and payment integration
-
-## Premium Package
-- Customized ecommerce frontend with branding changes
 
 ---
 
